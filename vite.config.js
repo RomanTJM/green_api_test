@@ -74,6 +74,7 @@ function greenApiProxy() {
 }
 
 export default defineConfig({
+  base: '/green_api_test/',
   plugins: [react(), greenApiProxy()],
   server: {
     port: 5173,
